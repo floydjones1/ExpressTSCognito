@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+      "sourceMap": true, // helps for debugging
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "baseUrl": "./src",
+      "removeComments": true, // removes all comments
+      "incremental": true, // compares dist and compiles whats needed 
+      "esModuleInterop": true // allows default export
+  },
+  "include": [
+      "src/**/*.ts"
+  ],
+  "exclude": [
+      "node_modules"
+  ]
+}
